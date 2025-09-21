@@ -46,6 +46,7 @@ The number of nodes in the tree is in the range [0, 5000].
  *     }
  * }
  */
+
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;
